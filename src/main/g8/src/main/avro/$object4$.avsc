@@ -1,0 +1,13 @@
+{
+    "namespace": "$namespace$",
+    "type": "record",
+    "name": "$object4$",
+    "fields":[
+         {
+            "name": "$object3;format="camel"$", "type": "$namespace$.$object3$"
+         },
+         {
+            "name": "error", "type": "string"
+         }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "namespace": "$namespace$",
+    "type": "record",
+    "name": "$object1$",
+    "fields":[
+         {
+            "name": "deviceId",
+            "type": {
+                "type": "string",
+                "logicalType": "uuid"
+            }
+         },
+         {
+            "name": "timestamp",
+            "type": {
+                "type": "long",
+                "logicalType": "timestamp-millis"
+            }
+         },
+         {
+            "name": "measurements", "type": "$namespace$.$object2$"
+         }
+    ]
+}

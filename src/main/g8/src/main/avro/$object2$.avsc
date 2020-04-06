@@ -1,0 +1,16 @@
+{
+    "namespace": "$namespace$",
+    "type": "record",
+    "name": "$object2$",
+    "fields":[
+         {
+            "name": "power", "type": "double"
+         },
+         {
+            "name": "rotorSpeed", "type": "double"
+         },
+         {
+            "name": "windSpeed", "type": "double"
+         }
+    ]
+}
